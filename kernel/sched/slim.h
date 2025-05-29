@@ -1,6 +1,3 @@
-#include <linux/atomic.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
 #ifndef __SLIM_H
 #define __SLIM_H
 
