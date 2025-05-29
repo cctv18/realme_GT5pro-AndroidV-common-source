@@ -7,14 +7,11 @@
  * Copyright (c) 2022 David Vernet <dvernet@meta.com>
  */
 
-#ifndef _LINUX_SCHED_DEADLINE_H
-#define _LINUX_SCHED_DEADLINE_H
-#include <linux/sched/deadline.h>
-#endif
 #include <linux/jiffies.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/cgroup.h>
+#include <linux/sched/deadline.h>
 #include "slim.h"
 #define CLUSTER_SEPARATE
 
