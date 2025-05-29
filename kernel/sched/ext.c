@@ -7,6 +7,11 @@
  * Copyright (c) 2022 David Vernet <dvernet@meta.com>
  */
 
+#include <linux/jiffies.h>
+#include <linux/kernel.h>
+#include <linux/sched.h>
+#include <linux/cgroup.h>
+#include <linux/sched/deadline.h>
 #include "slim.h"
 #define CLUSTER_SEPARATE
 
